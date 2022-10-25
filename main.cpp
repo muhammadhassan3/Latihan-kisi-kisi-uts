@@ -9,7 +9,7 @@ int main() {
     cout << "2. D4" << endl;
     cout << "Silahkan masukkan pilihan anda : " << endl;
     cin >> pil;
-    if (pil == '1' || pil == '2') {
+    if (pil == '1') {
         cout << "Silahkan pilih jalur masuk anda" << endl;
         cout << "A. Jalur SNMPN" << endl;
         cout << "B. Jalur SBMPN" << endl;
@@ -24,7 +24,7 @@ int main() {
         } else if (pil == 'C') {
             cout << "Jalur Ujian dengan Sistem internal";
         } else cout << "Salah memasukkan pilihan";
-    } if (pil == '1' || pil == '2') {
+    } if (pil == '2') {
         cout << "Silahkan pilih jalur masuk anda" << endl;
         cout << "A. Jalur SNMPN" << endl;
         cout << "B. Jalur SBMPN" << endl;
