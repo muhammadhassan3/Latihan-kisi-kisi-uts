@@ -24,6 +24,21 @@ int main() {
         } else if (pil == 'C') {
             cout << "Jalur Ujian dengan Sistem internal";
         } else cout << "Salah memasukkan pilihan";
-    } else cout << "Salah input pilihan";
+    } if (pil == '1' || pil == '2') {
+        cout << "Silahkan pilih jalur masuk anda" << endl;
+        cout << "A. Jalur SNMPN" << endl;
+        cout << "B. Jalur SBMPN" << endl;
+        cout << "C. Jalur Mandiri" << endl;
+        cout << "Silahkan masukkan pilihan anda : ";
+        cin >> pil;
+        pil = toupper(pil);
+        if (pil == 'A') {
+            cout << "Jalur prestasi nasional menggunakan Nilai Rapot";
+        } else if (pil == 'B') {
+            cout << "Jalur Ujian nasional dengan sistem dari pusat";
+        } else if (pil == 'C') {
+            cout << "Jalur Ujian dengan Sistem internal";
+        } else cout << "Salah memasukkan pilihan";
+    }else cout << "Salah input pilihan";
     return 0;
 }
